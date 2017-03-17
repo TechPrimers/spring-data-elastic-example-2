@@ -34,7 +34,12 @@ public class Loaders {
     private List<Users> getData() {
         List<Users> userses = new ArrayList<>();
         userses.add(new Users("Ajay",123L, "Accounting", 12000L));
+        userses.add(new Users("Techie",1230L, "Accounting", 12000L));
         userses.add(new Users("Jaga",1234L, "Finance", 22000L));
+        userses.add(new Users("Shiva",124L, "Tech", 21000L));
+        userses.add(new Users("Karthick",14L, "Tech", 21000L));
+        userses.add(new Users("Bhuvanesh",4L, "Accounting", 21000L));
+        userses.add(new Users("Kumaran",1L, "Tech", 22000L));
         userses.add(new Users("Thiru",1235L, "Accounting", 12000L));
         return userses;
     }
